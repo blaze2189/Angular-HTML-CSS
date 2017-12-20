@@ -1,0 +1,11 @@
+<nav>
+  <a (click)="changeContent('init')">Home</a>
+  <a (click)="changeContent('videos')" >Videos</a>
+  <a (click)="changeContent('actors')">Actors</a>
+  <a >menu 1</a>
+  <a >menu 1</a>
+<nav>
+<personal-info></personal-info>
+<div class='displayHome'>
+  <router-outlet name="home-router"></router-outlet>
+</div>
